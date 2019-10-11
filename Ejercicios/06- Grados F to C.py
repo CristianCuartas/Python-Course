@@ -1,0 +1,5 @@
+print("Conversor de grados Fahrenheit a grados Celcius")
+grados_fahrenheit = input('Temperatura en grados fahrenheit:')
+grados_fahrenheit = int(grados_fahrenheit)
+grados_celcius = ((grados_fahrenheit-32)*5/9)
+print(f'La temperatura en grados Celcius es de: {grados_celcius}')
