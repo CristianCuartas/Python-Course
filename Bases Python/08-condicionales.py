@@ -47,3 +47,17 @@ for lenguaje in lenguajes:
         print('Excelente Python')
     else:
         print(lenguaje)
+
+#--------------#
+# While
+contraseña = 1109
+clave = int(input('Ingrese la clave:'))
+while clave != contraseña:
+    print('Clave incorrecta')
+    clave = int(input('Ingrese la clave:'))
+print('Ingreso correctamente')
+
+#--------------#
+# For
+for var in range(1, 7):
+    print(var, "", end="")

@@ -20,3 +20,15 @@ lenguajes.append('Ruby')
 del lenguajes[0]
 
 print(lenguajes)
+
+tabla = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+print(tabla[0][2], tabla[1][1], tabla[2][2])
+tabla_2 = [[0, 10]]
+tabla.extend(tabla_2)
+print(tabla)
+tabla_2.insert(1, [11, 20])
+print(tabla_2)
+print(tabla.pop())
+print(tabla.pop(0))
+print(tabla.reverse())
